@@ -1,0 +1,38 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: #f9f9f9;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+nav {
+  display: flex;
+  justify-content: center;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  display: inline-block;
+}
+
+a {
+  display: block;
+  padding: 15px 20px;
+  text-decoration: none;
+  font-weight: bold;
+  color: #333;
+  transition: all 0.3s ease;
+}
+
+a:hover {
+  background-color: #333;
+  color: #fff;
+}
