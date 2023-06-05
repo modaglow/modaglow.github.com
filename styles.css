@@ -1,38 +1,51 @@
+/* Stilurile pentru pagina web */
+
 body {
+  font-family: Arial, sans-serif;
   margin: 0;
   padding: 0;
 }
 
 header {
-  background-color: #f9f9f9;
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  background-color: #f1f1f1;
+  padding: 20px;
 }
 
-nav {
-  display: flex;
-  justify-content: center;
-}
-
-ul {
+nav ul {
   list-style-type: none;
   margin: 0;
   padding: 0;
 }
 
-li {
-  display: inline-block;
+nav ul li {
+  margin-bottom: 10px;
 }
 
-a {
-  display: block;
-  padding: 15px 20px;
+nav ul li a {
   text-decoration: none;
-  font-weight: bold;
   color: #333;
-  transition: all 0.3s ease;
+  background-color: #ffd700;
+  display: block;
+  padding: 10px;
+  border-radius: 8px;
+  font-weight: bold;
+  text-align: center;
+  width: 120px;
 }
 
-a:hover {
-  background-color: #333;
-  color: #fff;
+nav ul li a:hover {
+  background-color: #daa520;
 }
+
+main {
+  padding: 20px;
+}
+
+h1 {
+  color: #333;
+}
+
+h2 {
+  color: #666;
+}
+
